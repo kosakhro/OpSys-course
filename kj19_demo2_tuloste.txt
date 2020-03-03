@@ -1,0 +1,27 @@
+kosakhro
+/nashome1/kosakhro/ITKA203/demo2
+Linux halava.cc.jyu.fi 3.10.0-957.12.2.el7.x86_64 #1 SMP Fri Apr 19 21:09:07 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+Sat May 18 15:45:17 EEST 2019
+total 72
+-rwxrwx---. 1 kosakhro users 250 May 18 15:40 demo2_skripti.sh
+-rwxrwx---. 1 kosakhro users 189 May 18 15:45 kj19_demo2_tuloste.txt
+UID         PID   PPID  C STIME TTY          TIME CMD
+kosakhro  81162  81133  0 14:27 ?        00:00:00 sshd: kosakhro@pts/0
+kosakhro  81163  81162  0 14:27 pts/0    00:00:00 -bash
+kosakhro  81204  81163  0 14:27 pts/0    00:00:00 htop
+kosakhro  81344  81163  0 14:29 pts/0    00:00:00 screen
+kosakhro  81345  81344  0 14:29 ?        00:00:00 SCREEN
+kosakhro  81346  81345  0 14:29 pts/6    00:00:00 /bin/bash
+kosakhro  83700  81345  0 14:31 pts/12   00:00:00 /bin/bash
+kosakhro  83716  83700  0 14:31 pts/12   00:00:18 htop
+kosakhro 105073  81346  0 15:42 pts/6    00:00:00 vim demo2_skripti.sh
+kosakhro 105235  83700  0 15:45 pts/12   00:00:00 /bin/bash ./demo2_skripti.sh
+kosakhro 105241 105235  0 15:45 pts/12   00:00:00 ps -u kosakhro -f
+#!/bin/bash
+whoami >> kj19_demo2_tuloste.txt
+pwd >> kj19_demo2_tuloste.txt
+uname -a >> kj19_demo2_tuloste.txt
+date >> kj19_demo2_tuloste.txt
+ls -l >> kj19_demo2_tuloste.txt
+ps -u `whoami` -f >> kj19_demo2_tuloste.txt
+cat $0 >> kj19_demo2_tuloste.txt

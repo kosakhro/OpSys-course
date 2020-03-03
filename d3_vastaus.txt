@@ -1,0 +1,11 @@
+Ympäristömuuttuja USER   == kosakhro
+Ympäristömuuttuja HOME   == /nashome1/kosakhro
+Ympäristömuuttuja PWD    == /nashome1/kosakhro/ITKA203/demo3
+Ympäristömuuttuja LC_ALL == en_US.utf8
+Ympäristömuuttuja LANG == en_US.UTF-8
+argv[0] == ./a.out
+argv[1] == I am really happy to do this course
+Kertauksena: käyttäjän 'kosakhro' tunnelmat tässä vaiheessa kurssia:
+
+I am really happy to do this course
+
